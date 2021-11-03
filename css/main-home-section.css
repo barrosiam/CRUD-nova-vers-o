@@ -1,0 +1,3 @@
+#main-home-section:nth-child(odd) div{
+background-color: red;
+}

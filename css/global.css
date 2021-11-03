@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url(reset.css);
+@import url(img.css);
+@import url(texts.css);
+@import url(consulta.css);
+@import url(search.css);
+@import url(main-home-section.css);
+
+
+:root {
+    --branco:  #FFFFFF;
+    --main-bg-color: #FBFBFB;
+    --main-text-color: #B6B6B6;
+    --main-color: #E85D04;
+    --main-header-components: #F6F6F6;
+    --main-button-color:#F48C06;
+    --footer-color: #ECBA38;
+    --footer-text-color: #404040;
+    --create-button-color: #DC2F02;
+    --delete-button-color: #E24603;
+  
+    --main-font:'Poppins', sans-serif;  
+    --placeholder-color: #000000;
+}
+
+body{
+    font-family: var(--main-font);
+    box-sizing: border-box;   
+    margin: 0;  
+    display: flex; 
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+button, .botao{
+    font-family: var(--main-font);
+    background-color: #DC2F02;
+    color: #f6f6f6;
+    border:none;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: .5rem;
+    width: 20rem;
+    font-weight: 600;  
+}
+
+#container-consulta{
+    margin-top:2rem;
+    width: 100%; 
+} 
+
+#btnAction{
+  background-color: var(--delete-button-color)
+}
+
+#btnAux{
+  background-color: var(--main-button-color)
+}
+
+.container-base{
+  width: 100%;
+  display:flex;
+  position: absolute;  
+  align-items: baseline;  
+  box-sizing: border-box;
+  justify-content: space-between;
+  
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;   
+  
+  z-index: 1;
+}
+
+/* @media screen and (max-width:760px){
+  .container-base{
+    flex-direction: column;
+  }
+} */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livreiros | Home</title>
+
+    <link href="../css/global.css" rel="stylesheet">
+
+    <script type = "module" src="../components/main-img-home.js"></script>
+    <script type = "module" src="../components/header-teste.js"></script>    
+    <script type = "module" src="../components/component-home.js"></script>
+    <script type = "module" src="../components/footer.js"></script>
+  
+</head>
+<body>
+  <custom-header></custom-header>
+
+  <main-img-container text="livros são sua passagem mais rápida para outro mundo" main-image-home="../imagens/main-img-home.jpg"></main-img-container>
+
+
+  <section id="main-home-section">
+    <component-home  path="cadastrar.html" text="Cadastre seu livro aqui" image-home="../imagens/salvar.jpg">
+    </component-home>
+    <component-home  teste="odd" path="consultar.html"  text="Consulte livros aqui" image-home="../imagens/consultar.jpg">
+    </component-home>
+    <component-home   path="consultar.html"  text="Delete seu livro aqui" image-home="../imagens/deletar.jpg">
+    </component-home>
+    <component-home teste="odd" path="consultar.html"  text="Atualize seu livro aqui" image-home="../imagens/atualizar.jpg">
+    </component-home>
+  </section>
+
+  <custom-footer></custom-footer>
+
+</body>
+</html>
